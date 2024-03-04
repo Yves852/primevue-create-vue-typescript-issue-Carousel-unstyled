@@ -10,7 +10,7 @@ import Carousel from 'primevue/carousel';
 
 const app = createApp(App);
 
-app.use(PrimeVue, { ripple: true, unstyled: false });
+app.use(PrimeVue, { ripple: true, unstyled: true });
 
 app.component('Carousel', Carousel);
 app.mount('#app');
